@@ -136,57 +136,18 @@
 
 }
 
-.icon__1, .icon__2, .icon__3,
- .icon__4,.icon__5, .icon__6 {
-width: 179px;
-height: 164px;
 
-}
 
-.icon__1 {
+.icon__page {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    width: 179px;
+    height: 164px;
 }
 
-.icon__2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-
-.icon__3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.icon__4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.icon__5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.icon__6 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.icon {
-    display: block;
+.svg__icon {
     fill: #fff;
     width: 130px;
     height: 120px;
