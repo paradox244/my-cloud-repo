@@ -132,7 +132,6 @@
     margin-right: 33px;
     width: 552px;
     height: 327px;
-    background: rgba(196, 196, 196, 0.43);
     display: flex;
 
 }
@@ -148,27 +147,42 @@ height: 164px;
     display: flex;
     align-items: center;
     justify-content: center;
- background: rgba(215, 129, 81, 0.43);
+
 }
 
 .icon__2 {
-background: rgba(116, 215, 81, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon__3 {
-background: rgba(81, 207, 215, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon__4 {
-background: rgba(81, 126, 215, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon__5 {
-background: rgba(116, 81, 215, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon__6 {
-background: rgba(215, 81, 210, 0.43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .icon {
