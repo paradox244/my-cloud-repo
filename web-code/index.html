@@ -305,11 +305,11 @@
     <!--@mail form-->
     <div class="form__wrapper">
 
-        <div class="form__img">
+        <div class="form__img" id="h844">
             <img src="img/background.png" alt="background img" class="bg__form">
         </div>
 
-        <div class="form__inner">
+        <div class="form__inner" id="hi844" >
             
             <div class="form__title">
                 <div class="form__heading">
@@ -321,35 +321,83 @@
                     <p>Оставьте заявку Мы свяжемся с Вами в течении этого
                     дня</p>
                 </div>
-            </div>
-            
-            <div class="form__section">
-                <form action="#" metod="get">
+                <form action="#" metod="get" id="form__contact">
                     <label for="your_name">
-                       <p id="content__text">Ваше имя </p>
+                        Ваше имя
                     </label>
                     <input type="text" name="name" id="your_name">
-
+                
                     <label for="your_email">
-                        <p id="content__text">Email</p>
+                        Email
                     </label>
                     <input type="email" name="email" id="your_email">
-
+                
                     <label for="your_phone">
-                        <p id="content_text">Телефон</p>
+                        Телефон
                     </label>
                     <input type="tel" name="phone" id="your_phone">
-
+                
                     <label for="your_massage">
-                        <p id="content_text">Сообщение</p>
+                        Сообщение
                     </label>
                     <textarea name="massage" id="your_massage" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Отправить">
                 </form>
             </div>
+             
         </div>
 
     </div>
 
+<!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="icon__svg">
+
+                <div class="svg__footer">
+                    <a href="#" class="link__svg">
+                        <svg class="svg__content">
+                            <use xlink:href="img//svg/sprites.svg#vk"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="svg__footer">
+                    <a href="#" class="link__svg">
+                        <svg class="svg__content">
+                            <use xlink:href="img//svg/sprites.svg#telegram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="svg__footer">
+                    <a href="#" class="link__svg">
+                        <svg class="svg__content">
+                            <use xlink:href="img//svg/sprites.svg#email_svg"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="svg__footer">
+                    <a href="#" class="link__svg">
+                        <svg class="svg__content">
+                            <use xlink:href="img//svg/sprites.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer__text">
+                <div class="text__inner" style="margin-bottom: 8px;">
+                    © 2019 Design by Paradox
+                </div>
+                <div class="text__inner" style="margin-bottom: 8px;">
+                    Все права защищены
+                </div>
+                <div class="text__inner">
+                    Студиа WEB CODE
+                </div>
+            </div>   
+        </div>
+    </footer>
 
 </div>
 <!--
